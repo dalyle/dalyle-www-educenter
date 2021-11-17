@@ -8,10 +8,10 @@ description: An experiment.  An accidental, probable success.  My purpose.  Firs
 ---
 ## ABOUT Dalyle DevOps Inc.
 
-An experiment.
-
-An accidental, probable success.
-
-My purpose.
-
-First step of improving the web industry for everyone.
+> An experiment.
+>
+> An accidental, probable success.
+>
+> My purpose.
+>
+> First step of improving the web industry for everyone.
