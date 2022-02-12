@@ -32,8 +32,8 @@ name = "About"
 url = "about"
 weight = 1
 [[Languages.en.menu.main]]
-name = "Service"
-url = "course"
+name = "Services"
+url = "service"
 weight = 2
 [[Languages.en.menu.main]]
 hasChildren = true
