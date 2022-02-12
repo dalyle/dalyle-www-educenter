@@ -137,7 +137,7 @@ description = "This is meta description"
 email = "hello@dalyle.io"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = ""
+mobile = "(403) 498-6809"
 top_header = true
 [params.cookies]
 enable = true
