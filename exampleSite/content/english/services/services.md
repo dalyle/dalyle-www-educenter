@@ -1,7 +1,6 @@
 +++
 bg_image = "/images/linkedin_cover_bg-black.jpg"
 description = "Sampling of what we can offer"
-draft = true
 title = "Services"
 
 +++
