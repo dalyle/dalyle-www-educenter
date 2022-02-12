@@ -21,3 +21,7 @@ Finding DevOps in the summer of 2020 changed my life. More than I knew, and poss
 * DevOps Handbook
 
 More books, up-to-date mainly, available on my [GoodReads.com Profile](https://www.goodreads.com/user/show/88997684-greg-stevens).
+
+Sincerely,
+
+Greg
