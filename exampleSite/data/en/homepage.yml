@@ -69,7 +69,7 @@ about:
     label: Learn more
     link: about
 course:
-  enable: true
+  enable: false
   title: Our Course
 cta:
   enable: true
@@ -89,10 +89,10 @@ success_story:
     ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 event:
-  enable: true
+  enable: false
   title: Upcoming Events
 funfacts:
-  enable: true
+  enable: false
   funfact_item:
   - name: TEACHERS
     count: "60"
