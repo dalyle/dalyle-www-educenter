@@ -179,13 +179,13 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/DalyleInc"
 title = "twitter"
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/dalyle"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://ca.linkedin.com/company/dalyle"
 title = "linkedin"
