@@ -37,36 +37,34 @@ banner_feature:
   enable: true
   image: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGJsdWVwcmludHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60
   feature_item:
-  - name: Scholorship News
+  - name: Open Book
     icon: ti-book
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Our Notice Board
+    content: Nothing to hide. Simply trying to keep your website up, and your web project on track,
+      through the use of proven best practices (modern and nearly pre-histroic ideas 🐱‍🐉).
+  - name: Dalyle Status Page
     icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+    content: Emergencies happen. WHen they do, we update our Status Page.
+      Quickly dissemenating information in emergency situations, a DevOps best practices.
   - name: Our Achievements
     icon: ti-agenda
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Admission Now
+  - name: Contact Us
     icon: ti-write
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+    content: "DevOps Questions? Website Project Management? Web Dev? Linux?
+      \nIf you are interested, and can reach Greg, he'll chat endlessly on the subjects.
+      \n[Greg's Personal Site - www.stevens.pro](https://www.stevens.pro)"
 about:
   enable: true
-  title: About Educenter
+  title: About Dalyle DevOps Inc.
   image: images/about/about-us.jpg
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat  pariatur. Excepteur sint occaecat\n\ncupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    iste natus error sit voluptatem "
+  content: "Dalyle DevOps Inc. is an experiment by Greg Stevens launched in October 2021. An experiment in customer service, cloud architecture, keeping commitments, and potentially being an open-agency, sharing all the best tools, advice, experiences, etc. online for anyone to read, contribute, and hopefully improve. CONTINUAL IMPROVEMENT - KAIZEN!
+    \n
+    \nAfter 17+ years as a hired professional at an agency, and about 6 years before that as a geek setting up Linux servers in my Mom's basement, and then her friends businesses.
+    \nTouch base, so many things to offer it's hard to describe."
   button:
     enable: true
-    label: Learn more
+    label: More About Us
     link: about
 course:
   enable: false
@@ -103,5 +101,5 @@ funfacts:
   - name: SATISFIED CLIENT
     count: "1400"
 blog:
-  enable: true
+  enable: false
   title: Latest News
