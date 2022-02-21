@@ -3,6 +3,16 @@ slider:
   enable: true
   bg_image: images/banner/banner-1.jpg
   slider_item:
+  - title: Zero-downtime Website Launches, Deployments, Cutovers, ...
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exer
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: Apply now
+      link: contact
   - title: Website and Infrastructure Monitoring, 24/7, 365
     content: There have been some hiccups, learning points, stumbling points, reaching
       us when we started. We've been working on it. Redundancies for phone numbers,
@@ -14,17 +24,7 @@ slider:
       enable: true
       label: Learn About Our Monitoring Services
       link: contact
-  - title: Zero-downtime Website Launches, Deployments, Cutovers, ...
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
-    animation_in: left
-    animation_out: right
-    button:
-      enable: true
-      label: Apply now
-      link: contact
-  - title: Happiness through DevOps
+  - title: DevOps = Stable Website = Happy Life
     content: "The DevOps philosophy aligns perfectly with our lifetimes of working
       in the web industry. Not tech, not IT, not marketing, ... WEB \U0001F631"
     animation_in: left
