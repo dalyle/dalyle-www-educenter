@@ -1,4 +1,4 @@
-baseURL = "https://dalyle-www-educenter.netlify.app/"
+baseURL = "https://new.dalyle.io/"
 disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "6"
@@ -130,10 +130,10 @@ name = "Contact"
 url = "contact"
 weight = 5
 [params]
-address = "Alberta, Canada"
+address = "Okotoks, Alberta, Canada"
 author = "Dalyle DevOps Inc."
 contact_form_action = "#"
-description = "This is meta description"
+description = "An experiment by Greg Stevens | Trying to do things right. My name is Greg Stevens, I am addicted to solving problems..."
 email = "hello@dalyle.io"
 google_analitycs_id = "G-V9QYWGFZBE"
 logo = "images/logo.png"
@@ -145,8 +145,8 @@ expire_days = 2
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "50.7255"
+map_longitude = "113.9749"
 map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -174,7 +174,7 @@ link = "plugins/google-map/gmap.js"
 enable = true
 preloader = "images/preloader.gif"
 [params.subscription]
-enable = true
+enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
