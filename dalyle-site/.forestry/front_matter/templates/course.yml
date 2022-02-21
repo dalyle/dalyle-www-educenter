@@ -48,4 +48,4 @@ fields:
   label: type
   default: course
 pages:
-- exampleSite/content/english/course/devops.md
+- dalyle-site/content/english/course/devops.md

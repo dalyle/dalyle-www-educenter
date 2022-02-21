@@ -15,4 +15,4 @@ fields:
   label: bg image
   description: page header background image
 pages:
-- exampleSite/content/english/services/services.md
+- dalyle-site/content/english/services/services.md
