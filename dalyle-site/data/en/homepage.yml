@@ -53,7 +53,7 @@ banner_feature:
     icon: ti-write
     content: "DevOps Questions? Website Project Management? Web Dev? Linux?
       \nIf you are interested, and can reach Greg, he'll chat endlessly on the subjects.
-      \n[Greg's Personal Site - www.stevens.pro](https://www.stevens.pro)"
+      <br /><br />[Greg's Personal Site - www.stevens.pro](https://www.stevens.pro)"
 about:
   enable: true
   title: About Dalyle DevOps Inc.
