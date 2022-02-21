@@ -1,7 +1,7 @@
 baseURL = "https://new.dalyle.io/"
 disableLanguages = ["fr"]
 disqusShortname = ""
-paginate = "6"
+paginate = "30"
 summaryLength = "10"
 theme = "educenter-hugo"
 title = "Dalyle DevOps Inc."
@@ -136,7 +136,7 @@ contact_form_action = "#"
 description = "An experiment by Greg Stevens | Trying to do things right. My name is Greg Stevens, I am addicted to solving problems..."
 email = "hello@dalyle.io"
 google_analitycs_id = "G-V9QYWGFZBE"
-logo = "images/logo.png"
+logo = "/images/linkedin_cover_bg-black.jpg"
 mobile = "(403) 498-6809"
 top_header = true
 [params.cookies]
