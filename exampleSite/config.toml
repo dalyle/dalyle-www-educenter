@@ -136,7 +136,7 @@ contact_form_action = "#"
 description = "An experiment by Greg Stevens | Trying to do things right. My name is Greg Stevens, I am addicted to solving problems..."
 email = "hello@dalyle.io"
 google_analitycs_id = "G-V9QYWGFZBE"
-logo = "/images/linkedin_cover_bg-black.jpg"
+logo = "/images/dalyle-logo-2021-10-19.png"
 mobile = "(403) 498-6809"
 top_header = true
 [params.cookies]
