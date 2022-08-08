@@ -1,10 +1,10 @@
+title = "Dalyle DevOps Inc."
 baseURL = "https://new.dalyle.io/"
+theme = "educenter"
 disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "30"
 summaryLength = "10"
-theme = "educenter-hugo"
-title = "Dalyle DevOps Inc."
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2022 [Dalyle DevOps Inc.](https://www.dalyle.io/)"
@@ -134,10 +134,10 @@ address = "Okotoks, Alberta, Canada"
 author = "Dalyle DevOps Inc."
 contact_form_action = "#"
 description = "An experiment by Greg Stevens | Trying to do things right. Focusing on improving your website through all of its lifecycle, from ideazation to ongoing hosting operations and site updates. I am addicted to solving problems, let me focus on solving yours..."
-email = "hello@dalyle.io"
+email = "hello@dalyle.ca"
 google_analitycs_id = "G-V9QYWGFZBE"
 logo = "/images/logo.png"
-mobile = "(403) 498-6809"
+mobile = "(403) 295-2848"
 top_header = true
 [params.cookies]
 enable = true
