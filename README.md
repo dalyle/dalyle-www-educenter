@@ -4,11 +4,82 @@
 Most (all?) credit goes to the lovely, free, open source `Static Site Generator (SSG)` theme,
 [Educenter Hugo](https://demo.gethugothemes.com/educenter) 🙏
 
+## Dalyle Branding
+
+
+
+### Primary Colours
+#24B0FC
+24B0FC
+
+
+#105175
+105175
+105175
+
+
+### Secondary
+#1AFE9C
+#2efda2
+rgb(46, 253, 162)
+hsl(154, 98%, 59%)
+
+
+### Secondary
+
+```html
+
+```
+
+
+#### 2022-07-06 at 15:28:56 MDT
+Used PowerToys Color Picker and received below hex:
+125273
+rgb(18, 82, 115)
+hsl(200, 73%, 26%)
+
+
+#### DeWalt Yellow
+
+
+
+## Dalyle Contact Info
+14034986809
+
+
+### MS Teams
+```
+```
+Auto-attendant
+
++1 587 743 0445
+
+[(587) 743-0445](tel:+15877430445)
+
+_Changed main line to end with 7. Less numbers better._
+
+[(587) 743-0447](tel:+15877430447)
+
+
+[(403) 213-5644](tel:+14032135644)
+
+
+
+
+
+
+
+
+
 ---
 
 <p align="center">
 <img src="https://demo.gethugothemes.com/thumbnails/educenter.webp" alt="screenshot" width="100%">
 </p>
+
+
+
+
 
 
 ## Local Development

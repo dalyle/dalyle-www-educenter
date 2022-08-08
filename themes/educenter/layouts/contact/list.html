@@ -5,7 +5,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="section-title">{{ i18n "contact_us" }}</h2>
+        <h2 class="section-title">
+          {{ i18n "contact_us" }}
+          {{ site.Params.org_name }}
+        </h2>
       </div>
     </div>
     <div class="row">
@@ -20,9 +23,13 @@
       </div>
       <div class="col-lg-5 content">
         {{ .Content }}
-        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
+        <a href="tel:{{ site.Params.phone_e164format }}" class="text-color h5 d-block">
+          {{ site.Params.phone_label }}
+        </a>
         <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
-        <p>{{ site.Params.address | markdownify }}</p>
+        <a href="#map" title="/map" class="mb-5 text-color h5 d-block">
+          {{ site.Params.address | markdownify }}
+        </a>
       </div>
     </div>
   </div>
@@ -30,11 +37,11 @@
 <!-- /contact -->
 
 <!-- gmap -->
-<section class="section pt-0">
+<section class="section pt-0" id="map">
   <!-- Google Map -->
-  <div id="map_canvas" 
+  <div id="map_canvas"
   data-latitude="{{ site.Params.map.map_latitude }}"
-  data-longitude="{{ site.Params.map.map_longitude }}" 
+  data-longitude="{{ site.Params.map.map_longitude }}"
   data-marker="{{ site.Params.map.map_marker | absURL }}"
   data-marker-name="{{ site.Title }}"></div>
 </section>

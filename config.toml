@@ -5,60 +5,141 @@ disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "30"
 summaryLength = "10"
+
+
+
+[params]
+address = "Okotoks, Alberta, Canada"
+author = "Dalyle DevOps Inc."
+org_name = "Dalyle DevOps Inc."
+contact_form_action = "#"
+description = "Greg Stevens Experiment in trying to do things right => BETTER WEB INDUSTRY. Focusing on improving your website through all of its lifecycle, from ideazation to ongoing hosting operations and site updates. I am addicted to solving problems, let me focus on solving yours..."
+email = "hello@dalyle.ca"
+
+
+top_header = true
+
+
+
+google_analitycs_id = "G-V9QYWGFZBE"
+
+
+
+
+logo = "/images/logo.png"
+logo_footer = "/images/logo-footer.png"
+#mobile = "[(403) 295-2848](tel:+14032952848)"
+#mobile = "[(587) 743-0445](tel:+15877430445)"
+#mobile = "[(587) 743-0447](tel:+15877430447)"
+mobile = "[(403) 213-5644](tel:+14032135644)"
+
+phone = "[(403) 213-5644](tel:+14032135644)"
+phone_e164format = "+14032135644"
+phone_label = "(403) 213-5644"
+
+
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# map_latitude = 50.7333
+# map_longitude = -113.958
+map_latitude = 50.734
+map_longitude = -113.960
+map_marker = "images/marker.png"
+
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/DalyleDev"
+title = "Twitter"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/dalyle"
+title = "GitHub"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://ca.linkedin.com/company/dalyle"
+title = "LinkedIn"
+
+
+
+
+
+[params.cookies]
+enable = true
+expire_days = 365
+
+
+
+
+
+
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif"
+
+
+
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=SUBSCRIBE_USER_IDd&amp;id=SUBSCRIBE_ID"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+
+
+
+
+#
+# ENGLISH
+#
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2022 [Dalyle DevOps Inc.](https://www.dalyle.io/)"
 home = "Home"
 languageCode = "en-ca"
-languageName = "En"
+languageName = "en"
 weight = 1
-[[Languages.en.menu.footer]]
-name = "teacher"
-url = "teacher"
-[[Languages.en.menu.footer]]
-name = "notice"
-url = "notice"
-[[Languages.en.menu.footer]]
-name = "event"
-url = "event"
-[[Languages.en.menu.footer]]
-name = "scholarship"
-url = "scholarship"
-[[Languages.en.menu.footer]]
-name = "research"
-url = "research"
-[[Languages.en.menu.main]]
-name = "About"
-url = "about"
-weight = 1
+
+
+#
+# ENGLISH MENU MAIN (TOP)
+#
+
+#[[Languages.en.menu.main]]
+#name = "About"
+#url = "about"
+#weight = 1
 [[Languages.en.menu.main]]
 name = "Services"
-url = "service"
+url = "services"
 weight = 2
-[[Languages.en.menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 3
-[[Languages.en.menu.main]]
-name = "teacher"
-parent = "Pages"
-url = "teacher"
-[[Languages.en.menu.main]]
-name = "notice"
-parent = "Pages"
-url = "notice"
-[[Languages.en.menu.main]]
-name = "event"
-parent = "Pages"
-url = "event"
-[[Languages.en.menu.main]]
-name = "scholarship"
-parent = "Pages"
-url = "scholarship"
-[[Languages.en.menu.main]]
-name = "research"
-parent = "Pages"
-url = "research"
+
+
+# [[Languages.en.menu.main]]
+# hasChildren = true
+# name = "Pages"
+# weight = 3
+# [[Languages.en.menu.main]]
+# name = "teacher"
+# parent = "Pages"
+# url = "teacher"
+# [[Languages.en.menu.main]]
+# name = "notice"
+# parent = "Pages"
+# url = "notice"
+# [[Languages.en.menu.main]]
+# name = "event"
+# parent = "Pages"
+# url = "event"
+# [[Languages.en.menu.main]]
+# name = "scholarship"
+# parent = "Pages"
+# url = "scholarship"
+# [[Languages.en.menu.main]]
+# name = "research"
+# parent = "Pages"
+# url = "research"
+
+
 [[Languages.en.menu.main]]
 name = "blog"
 url = "blog"
@@ -67,6 +148,33 @@ weight = 4
 name = "Contact"
 url = "contact"
 weight = 5
+
+
+#
+# ENGLISH MENU FOOTER "Links" Section
+#
+# [[Languages.en.menu.footer]]
+# name = "teacher"
+# url = "teacher"
+# [[Languages.en.menu.footer]]
+# name = "notice"
+# url = "notice"
+# [[Languages.en.menu.footer]]
+# name = "event"
+# url = "event"
+# [[Languages.en.menu.footer]]
+# name = "scholarship"
+# url = "scholarship"
+# [[Languages.en.menu.footer]]
+# name = "research"
+# url = "research"
+
+
+
+
+#
+# FRENCH
+#
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2022 [Dalyle DevOps Inc.](https://www.dalyle.io/)"
@@ -129,25 +237,20 @@ weight = 4
 name = "Contact"
 url = "contact"
 weight = 5
-[params]
-address = "Okotoks, Alberta, Canada"
-author = "Dalyle DevOps Inc."
-contact_form_action = "#"
-description = "An experiment by Greg Stevens | Trying to do things right. Focusing on improving your website through all of its lifecycle, from ideazation to ongoing hosting operations and site updates. I am addicted to solving problems, let me focus on solving yours..."
-email = "hello@dalyle.ca"
-google_analitycs_id = "G-V9QYWGFZBE"
-logo = "/images/logo.png"
-mobile = "(403) 295-2848"
-top_header = true
-[params.cookies]
-enable = true
-expire_days = 2
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "50.7255"
-map_longitude = "113.9749"
-map_marker = "images/marker.png"
+
+#
+# END FRENCH
+#
+
+
+
+
+
+
+
+#
+# PLUGINS
+#
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -170,22 +273,3 @@ link = "plugins/venobox/venobox.min.js"
 link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
-[params.preloader]
-enable = true
-preloader = "images/preloader.gif"
-[params.subscription]
-enable = false
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=SUBSCRIBE_USER_IDd&amp;id=SUBSCRIBE_ID"
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "https://twitter.com/DalyleInc"
-title = "twitter"
-[[params.social]]
-icon = "ti-github"
-link = "https://github.com/dalyle"
-title = "github"
-[[params.social]]
-icon = "ti-linkedin"
-link = "https://ca.linkedin.com/company/dalyle"
-title = "linkedin"

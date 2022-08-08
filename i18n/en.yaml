@@ -17,7 +17,7 @@
   translation: Subscribe
 
 - id: contact_us
-  translation: Contact Us
+  translation: Contact
 
 - id: latest_article
   translation: Latest Article
@@ -75,7 +75,7 @@
 
 - id: join
   translation: Join
-  
+
 - id: enter_email
   translation: Enter your email…
 
@@ -89,7 +89,7 @@
   translation: Courses
 
 - id: new_notice
-  translation: new notice
+  translation: Notice
 
 - id: call
   translation: call

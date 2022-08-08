@@ -1,0 +1,8 @@
+[🚀 Launched Dalyle.ca v2](http://localhost:1313/notice/notice-1/)
+[How to use template parameters in page content in hugo - Stack Overflow](https://stackoverflow.com/questions/42023687/how-to-use-template-parameters-in-page-content-in-hugo)
+[Dalyle DevOps Inc. - Google Maps](https://www.google.com/maps/place/Dalyle+DevOps+Inc./@50.7332955,-113.9579906,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd7b6451e49657c76!8m2!3d50.7332955!4d-113.9579906)
+[white and black laptop photo – Free Website Image on Unsplash](https://unsplash.com/photos/bs2Ba7t69mM)
+[laptop computer on glass-top table photo – Free Business Image on Unsplash](https://unsplash.com/photos/hpjSkU2UYSU)
+[monitor showing Java programming photo – Free Image on Unsplash](https://unsplash.com/photos/OqtafYT5kTw)
+[people sitting down near table with assorted laptop computers photo – Free Business Image on Unsplash](https://unsplash.com/photos/SYTO3xs06fU)
+[two person standing on gray tile paving photo – Free Website Image on Unsplash](https://unsplash.com/photos/TamMbr4okv4)
