@@ -108,7 +108,8 @@ servicedesk_widget_html = '<script data-jsd-embedded data-key="e8082c73-3ef6-41a
 #
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2022 [Dalyle DevOps Inc.](https://www.dalyle.io/)"
+# {year} replaced by template (footer.html) ala https://geekthis.net/post/hugo-dynamic-copyright-year/
+copyright = "Copyright &copy; 2021 &mdash; {year} [Dalyle DevOps Inc.](/) All Rights Reserved.<br>Theme Courtesy of [Educenter Hugo](https://github.com/themefisher/educenter-hugo) 💖"
 home = "Home"
 languageCode = "en-ca"
 languageName = "en"

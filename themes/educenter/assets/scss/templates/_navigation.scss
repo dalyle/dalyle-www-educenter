@@ -152,7 +152,7 @@ link:focus,
       position: relative;
       color: $text-color-dark;
       transition: .2s ease;
-      text-transform: capitalize;
+      text-transform: capitalize; // todo: Test this, maybe remove? @GregSweats 2022-08-08
       font-family: $primary-font;
 
       @include desktop {

@@ -1,27 +1,21 @@
 ---
-title: "Incorporated as Dalyle DevOps Inc."
-date: 2020-10-13T00:00:00-07:00
 draft: false
-# page title background image
-# bg_image: "images/backgrounds/page-title.jpg"
-# meta description
+title: "Incorporated as Dalyle DevOps Inc."
+date: 2021-10-13T12:41:00-07:00
+author: "Greg Stevens"
+type: "post"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# post thumbnail
+# bg_image: "images/backgrounds/page-title.jpg"
 # image: "images/blog/post-3.jpg"
-# post author
-author: "Mark Dinn"
-# taxonomy
 categories: ["Business", "DevOps"]
 tags: ["Business", "Official"]
-# type
-type: "post"
 ---
 
 ### Why?
 
 > #### Da(vid) + Lyle = Dalyle
 
-- [**Greg Stevens**](https://greg.stevens.pro/) is the **Founder** of **Dalyle DevOps Inc.**
+- [**Greg Stevens**](/author/greg-stevens) is the **Founder** of **Dalyle DevOps Inc.**
 - **Greg's** Father's Name is **David Lyle Stevens**
 - **David** is an **old-school mechanic**, well-described by others as **"the alley cat"**.
 - **David** dislikes computers, technology, change.
