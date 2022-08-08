@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+
+<!--
+  > The second argument in a partial call is the variable being passed down. The above examples are passing the `.`, which tells the template receiving the partial to apply the current [context](https://gohugo.io/templates/introduction/ "The most easily overlooked concept to understand about Go templating is how the dot always refers to the current context.").
+  https://gohugo.io/templates/partials/
+  [Partial Templates | Hugo](https://gohugo.io/templates/partials/)
+-->
+
+<section class="section bg-cover" data-background="{{ .Params.bg_image | absURL }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="{{ .Params.video_link | safeURL }}" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">{{ .Params.title | markdownify }}</h2>
+          {{ .Content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- /success story -->
+
+
+{{ end }}

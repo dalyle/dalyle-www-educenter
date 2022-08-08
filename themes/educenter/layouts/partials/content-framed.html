@@ -1,0 +1,20 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+<section class="section bg-cover" data-background="{{ .Params.bg_image | absURL }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="{{ .Params.video_link | safeURL }}" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">{{ .Params.title | markdownify }}</h2>
+          <p>{{ .Content | markdownify }}</p>
+adsf
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

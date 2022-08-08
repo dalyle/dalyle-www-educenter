@@ -108,3 +108,9 @@
 
 - id: download
   translation: Download
+
+- id: blog
+  translation: Blog
+
+- id: posts
+  translation: Posts

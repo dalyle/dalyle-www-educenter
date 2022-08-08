@@ -23,13 +23,22 @@
       </div>
       <div class="col-lg-5 content">
         {{ .Content }}
-        <a href="tel:{{ site.Params.phone_e164format }}" class="text-color h5 d-block">
-          {{ site.Params.phone_label }}
-        </a>
-        <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
-        <a href="#map" title="/map" class="mb-5 text-color h5 d-block">
-          {{ site.Params.address | markdownify }}
-        </a>
+        <ul>
+          <li>
+            <a href="tel:{{ site.Params.phone_e164format }}" class="text-color d-block">
+              {{ site.Params.phone_label }}
+            </a>
+          </li>
+          <li>
+            <a href="mailto:{{ site.Params.email }}" class="text-color d-block">
+              {{ site.Params.email }}
+            </a>
+          </li>
+          <li>
+            <a href="#map" title="/map" class="text-color d-block">
+            {{ site.Params.address }}
+            </a>
+          </li>
       </div>
     </div>
   </div>

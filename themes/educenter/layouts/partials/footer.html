@@ -65,7 +65,9 @@
           </ul>
         </div>
         -->
+
         <!-- courses -->
+        <!--
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "courses" }}</h4>
           <ul class="list-unstyled">
@@ -74,15 +76,40 @@
             {{ end }}
           </ul>
         </div>
-        <!-- notice -->
-        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "new_notice" }}</h4>
-          <ul class="list-unstyled">
-            {{ range first 3 (where site.RegularPages "Type" "notice")}}
-            <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
+        -->
+       <!--- Categories --->
+       <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5 text-uppercase">{{ i18n "categories" }}</h4>
+        <ul class="list-unstyled">
+          {{- range $name, $items := sort site.Taxonomies.categories }}
+          <li class="mb-3">
+            <a
+              class="text-color"
+              href="{{ `categories/` | relLangURL }}{{ $name | urlize }}"
+            >
+              {{ .Page.Title }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </div>
+      <!-- Blog -->
+      <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5 text-uppercase">{{ i18n "posts" }}</h4>
+        <ul class="list-unstyled">
+          {{ range first 3 (where site.RegularPages "Type" "post")}}
+          <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <!-- notice -->
+      <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="text-white mb-5 text-uppercase">{{ i18n "new_notice" }}</h4>
+        <ul class="list-unstyled">
+          {{ range first 3 (where site.RegularPages "Type" "notice")}}
+          <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
       </div>
     </div>
   </div>
@@ -182,3 +209,7 @@
 }
 </style>
 {{ end }}
+
+
+
+{{ partial "servicedesk_widget.html" }}

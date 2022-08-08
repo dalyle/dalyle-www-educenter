@@ -71,9 +71,9 @@
 }
 
 .btn-outline-primary {
-  color: $primary-color;
+  color: $button-color;
   background-color: transparent;
-  border: 1px solid $primary-color;
+  border: 1px solid $button-color;
 
   &::before {
     background-color: $white;

@@ -229,7 +229,8 @@
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
+  // top padding so top nav doesn't flood/break footer when scrolled down.
+  padding-top: 100px;
   color: #8996a7;
   a {
     color: #8996a7;

@@ -6,6 +6,12 @@ disqusShortname = ""
 paginate = "30"
 summaryLength = "10"
 
+#
+# 2022-08-08 - Fix "DevOps" in blog Category Sidebar showing "Devops" without capial "o"
+# https://discourse.gohugo.io/t/taxonomy-terms-with-the-original-case/13623
+#
+preserveTaxonomyNames = true
+
 
 
 [params]
@@ -85,7 +91,16 @@ enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=SUBSCRIBE_USER_IDd&amp;id=SUBSCRIBE_ID"
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 
-
+#
+# servicedesk = Atlassian Customer Service Desk Widget
+#
+#
+# https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/settings/widget
+# By embedding a lightweight request form, your customers can send requests directly from any website you control.
+#
+[params.servicedesk_widget]
+enable = true
+servicedesk_widget_html = '<script data-jsd-embedded data-key="e8082c73-3ef6-41aa-83bc-4dc17349b97f" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>'
 
 
 #
@@ -141,9 +156,10 @@ weight = 2
 
 
 [[Languages.en.menu.main]]
-name = "blog"
+name = "Blog"
 url = "blog"
 weight = 4
+
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
@@ -273,3 +289,14 @@ link = "plugins/venobox/venobox.min.js"
 link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
+
+
+#
+#
+#
+# Allowing unsafe markup for /devops/ #gross 2022-08-08
+#
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

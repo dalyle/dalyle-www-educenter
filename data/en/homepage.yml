@@ -3,10 +3,8 @@ slider:
   enable: true
   bg_image: images/banner/banner-1.jpg
   slider_item:
-  - title: Zero-downtime Website Launches, Deployments, Cutovers, ...
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: 🚀 Zero-downtime Atomic Deployments
+    content: Launch a **New Site**, **Site Updates**, or **Infrastructure Cutovers** with the confidence that comes from daily practice and improvement for **over 18 years**.
     animation_in: left
     animation_out: right
     button:
@@ -41,12 +39,15 @@ banner_feature:
     icon: ti-book
     content: Nothing to hide. Simply trying to keep your website up, and your web project on track,
       through the use of proven best practices (modern and nearly pre-histroic ideas 🐱‍🐉).
-  - name: Dalyle Status Page
+  - name: Status Page
     icon: ti-blackboard
-    content: Emergencies happen. When they do, we update our Status Page.
-      Quickly dissemenating information in emergency situations, a DevOps best practices.
-  - name: Our Achievements
-    icon: ti-agenda
+    content:
+      "100% Transparency is our goal. 💩 happens. When it does, we want to let you know that we are on it!
+      do, we update our Status Page.
+      \n\n
+      Quickly dissemenating information in emergency situations is one of many **[DevOps Best Practices](/devops)** that Dalyle preaches."
+  - name: Two Decades of Experience
+    icon: ti-calendar
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
   - name: Contact Us
@@ -55,9 +56,9 @@ banner_feature:
       \nIf you are interested, and can reach Greg, he'll chat endlessly on the subjects."
 about:
   enable: true
-  title: About Dalyle DevOps Inc.
+  title: About DDOINC
   image: images/about/about-us.jpg
-  content: "Dalyle DevOps Inc. is an experiment by Greg Stevens launched in October 2021. An experiment in customer service, cloud architecture, keeping commitments, and potentially being an open-agency, sharing all the best tools, advice, experiences, etc. online for anyone to read, contribute, and hopefully improve. CONTINUAL IMPROVEMENT - KAIZEN!
+  content: "Dalyle DevOps Inc. (`DDOINC`) is an experiment by [Greg Stevens](https://greg.stevens.pro/) launched in October 2021. An experiment in customer service, cloud architecture, keeping commitments, and potentially being an open-agency, sharing all the best tools, advice, experiences, etc. online for anyone to read, contribute, and hopefully improve. CONTINUAL IMPROVEMENT - KAIZEN!
     \n
     \nAfter **more than 17 years** as a hired professional at an agency, and about 6 years before that **as a geek setting up Linux servers** in my Mom's basement, and then her friends businesses.
     \n\n\n\n`Touch base, so many things to offer it's hard to describe."
@@ -81,10 +82,12 @@ success_story:
   bg_image: images/backgrounds/success-story.jpg
   title: Success Stories
   content: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+    Over **20 Years of Successess and Learnings**.
 
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
+    **Continually Improving** through daily practice of [Kaizen](/blog/kaizen)
+
+    Improving our ways, so you can benefit from **what works IRL _(in real-life)_**.
+  video_link: https://youtu.be/wdC_z_gypfU?t=107
 event:
   enable: false
   title: Upcoming Events
