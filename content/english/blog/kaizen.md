@@ -23,6 +23,6 @@ From [Wikipedia]()
 
 ### Our Understanding
 
-* Improve everday
+* Improve every day
 * Nanoscopic improvements build on each other
 * Being great feels great
