@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "content",
-        "repo"
+        "repo",
+        "forestry-cms"
     ]
 }
