@@ -16,4 +16,4 @@ Be that:
 
 - Wondering [WTF is DevOps](/devops/wtf)?
 - Contemplating [Your DevOps Playbook](/devops/playbook)
-- [Assess Your Current Web(site|app) State](/devops/assess)
+- [Assess Your Current Web(site|app) State](/contact)

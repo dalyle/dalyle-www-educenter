@@ -6,7 +6,7 @@ author: "Greg Stevens"
 type: "post"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # bg_image: "images/backgrounds/page-title.jpg"
-# image: "images/blog/post-3.jpg"
+image: "images/logo.png"
 categories: ["Business", "DevOps"]
 tags: ["Business", "Official"]
 ---

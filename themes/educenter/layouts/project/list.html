@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<section class="section project-list">
+  <div class="container">
+    <div class="row">
+      <!-- loop -->
+      {{ range .Data.Pages}}
+        <!-- item -->
+        <div class="col-lg-4 col-sm-6 mb-4 project-single">
+          {{ .Render "project" }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

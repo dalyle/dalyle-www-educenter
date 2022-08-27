@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Blog Post
@@ -96,6 +96,22 @@ sections:
 - type: directory
   path: content/french/event
   label: Event (fr)
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: heading
+  label: Project
+- type: directory
+  path: content/english/project
+  label: Project (en)
+  create: all
+  match: "**/*"
+  templates:
+  - project
+- type: directory
+  path: content/french/project
+  label: Project (fr)
   create: all
   match: "**/*"
   templates:
