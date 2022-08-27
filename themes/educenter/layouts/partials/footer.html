@@ -187,7 +187,7 @@
 </div>
 <script>
 	(function ($) {
-    const expires = {{ site.Params.cookies.expire_days }};
+    const expires = parseInt('{{ site.Params.cookies.expire_days }}');
 		const cookieBox = document.getElementById('js-cookie-box');
 		const cookieButton = document.getElementById('js-cookie-button');
 		if (!Cookies.get('cookie-box')) {
