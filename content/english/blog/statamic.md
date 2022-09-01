@@ -3,7 +3,7 @@ type: post
 title: Statamic CMS
 date: 2022-08-24T02:00:00-04:00
 bg_image: ''
-image: 'images/brands/statamic-screenshot.png'
+image: 'images/brand/statamic-screenshot.png'
 author: ''
 description: ''
 categories: ["CMS", "Vendors"]

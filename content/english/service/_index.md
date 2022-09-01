@@ -1,6 +1,6 @@
 ---
-title: "Services 23"
+title: "Services"
 draft: false
 bg_image: "images/backgrounds/page-title.jpg"
-description: "Serivces offered by Dalyle DevOps Inc."
+description: "Some of the many services offered by Dalyle."
 ---
