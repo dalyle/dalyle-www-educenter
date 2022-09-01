@@ -7,6 +7,9 @@
 - id: send
   translation: send message
 
+- id: subscribe
+  translation: Subscribe
+
 - id: contact_info
   translation: Contact Info
 

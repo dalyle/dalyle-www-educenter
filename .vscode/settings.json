@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "content",
         "repo",
-        "forestry-cms"
+        "forestry-cms",
+        " selzy"
     ]
 }

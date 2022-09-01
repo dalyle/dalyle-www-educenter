@@ -13,13 +13,24 @@
     </div>
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
+        <form method="POST" action="https://cp.selzy.com/en/subscribe?hash=6x4eegei474mruorna89bhoicfy7xifau4kdoo8aex5qfeo75nk7o">
+          <input type="text" class="form-control mb-3" id="name" name="f_1" placeholder="Your Name">
+          <input type="email" class="form-control mb-3" id="email" name="email" placeholder="Your Email">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
           <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
-          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+          <button type="submit" value="subscribe" class="btn btn-primary">{{ i18n "subscribe" }}</button>
+          <input type="hidden" name="charset" value="UTF-8">
+          <input type="hidden" name="default_list_id" value="3">
+          <input type="hidden" name="overwrite" value="2">
+          <input type="hidden" name="is_v5" value="1">
         </form>
+
+{{/*
+  <div id="unisender-subscribe-form" data-url="https://cp.selzy.com/en/v5/subscribe-form/view/6jy6dsa1ktqqbh9jtffh6qhnf3y5wgq81n5f1qsa"></div>
+  <script type="text/javascript" src="https://cp.selzy.com/v5/template-editor-new/js/app/preview/form/form-widget-loader.js"></script>
+  */}}
+
+
       </div>
       <div class="col-lg-5 content">
         {{ .Content }}
