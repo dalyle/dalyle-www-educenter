@@ -121,5 +121,14 @@ https://www.dalyle.io/*    https://www.dalyle.ca/:splat 301!
 
 
 # 2022-09-08 - YouTube @GregWorks
-/youtube    https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q
-/yt         /youtube
+# Careful - have to make sure to have special case for capital YouTube
+# https://answers.netlify.com/t/case-sensitivity-with-redirects/956/2
+# > When you use redirects, we don’t change the case and it is case-sensitive.
+# > If you need to match multiple cases then you’ll
+# **have to include separate redirect lines for each of those cases**.
+/YouTube    /yt
+/youtube    /yt
+/yt         https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q
+
+
+
