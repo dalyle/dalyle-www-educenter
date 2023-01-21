@@ -10,6 +10,14 @@
 
 
 ###
+# REDIRECT ALL TO STEVENS.PRO
+# SINCE 2023-01-20
+# Sharing video with dalyle.ca link to MG. 
+# Don't want to have incomplete site show.
+###
+/*  https://www.stevens.pro/?utm_source=dalyle.ca
+
+###
 # SUB-DOMAIN REDIRECTS
 ###
 https://status.dalyle.ca/*  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.ca&utm_name=test-name&utm_source=test-source    301!
