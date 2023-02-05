@@ -1,0 +1,143 @@
+# https://docs.netlify.com/routing/redirects/
+#
+# > # Redirects from what the browser requests to what we serve
+# > /home              /
+# > /blog/my-post.php  /blog/my-post
+# > /news              /blog
+# > /cuties            https://www.petsofnetlify.com
+# >
+#
+
+
+###
+# REDIRECT ALL TO STEVENS.PRO
+# SINCE 2023-01-20
+# Sharing video with dalyle.ca link to MG. 
+# Don't want to have incomplete site show.
+###
+https://www.dalyle.ca/*  https://www.stevens.pro/?utm_source=dalyle.ca
+/*  https://www.stevens.pro/?utm_source=dalyle.ca
+
+###
+# SUB-DOMAIN REDIRECTS
+###
+https://status.dalyle.ca/*  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.ca&utm_name=test-name&utm_source=test-source    301!
+https://status.dalyle.io/*  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.io&utm_name=test-name&utm_source=test-source    301!
+
+
+###
+# PRIMARY DOMAIN REDIRECTS
+# https://answers.netlify.com/t/301-redirect-from-domain-alias-to-primary-domain-subdomain/16803/6
+###
+https://dalyle.io/*        https://www.dalyle.ca/:splat 301!
+https://www.dalyle.io/*    https://www.dalyle.ca/:splat 301!
+
+# Greg's Email Signature
+/vcard          /vcard/Greg-Stevens-Dalyle.vcf
+/vcard/greg     /vcard/Greg-Stevens-Dalyle.vcf
+/map            https://www.google.com/maps/place/Dalyle+DevOps+Inc./@50.7332955,-113.9601793,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd7b6451e49657c76!8m2!3d50.7332955!4d-113.9579906
+
+
+# https://www.google.com/maps/place/Dalyle+DevOps+Inc./@50.7332955,-113.9601793,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd7b6451e49657c76!8m2!3d50.7332955!4d-113.9579906
+# with tracking
+
+
+#
+# wow, Greg, like 5 hours to setup a redirect? lol.
+# plus about 5 logo changes?
+# and a visit from jack
+#
+
+#
+# sidenote: dalyledevops@gmail.com is accct
+# used to create Google Place on 2021-10-19.
+#
+
+
+###=####
+# Internal Links Used by Site
+# Can add tracking codes or update easier this way.
+# Just renamed twitter `dalyle_ca` which hurts my right hand
+# to type in the garage on the old Microsoft keyboard.
+# @DalyleDevOps it is! Where @dalyle isn't of course.
+/linkedin   https://www.linkedin.com/company/Dalyle
+/twitter    https://twitter.com/DalyleInc
+/github     https://github.com/dalyle
+###=####
+
+
+###=###
+# CUSTOMER SERVICE LINKS
+###=###
+
+# Dalyle Staff
+/csd            https://dalyle.atlassian.net/servicedesk/customer/portal/4
+/csd/admin      https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/dhr            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/sp             https://dalyle.sharepoint.com/sites/DalyleStaff
+/help           https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+# Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
+/portals        https://dalyle.atlassian.net/servicedesk/customer/portals
+
+/desk           /csd?utm_medium=redirect&utm_campaign=/client&utm_source=dalyle_dot_ca
+/client         /csd?utm_medium=redirect&utm_source=/client
+# ????? /            https://dalyle.atlassian.net/servicedesk/customer/portals/
+# /portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
+
+/status         https://dalyle.statuspage.io/?utm_medium=redirect&utm_campaign=/status&utm_source=dalyle_ca
+### ### ###  ### ### ###  ### ### ###  ### ### ### ###
+### PROJECTS (Jira Software Projects typically)  ###
+
+# Ronmor Board - Friday, November 5, 2021 @ 03:11:26 PM
+/p/ron  https://dalyle.atlassian.net/browse/RON
+
+### ### ###
+
+
+###=###
+# PKI Related
+###=###
+/pkwebteam  /pkwt
+/pwt        /pkwt
+/pkwt       https://dalyle.atlassian.net/servicedesk/customer/portal/6
+### ### ###
+
+
+
+
+# "Customer invited"
+# ...email sent by Jira Service Management.
+# 2021-10-28
+
+/from/jira-customer-invited     /?utm_id=2021-10-28&utm_source=jira&utm_medium=email&utm_campign=jira-customer-invited
+
+#
+#
+#
+
+###
+# others (not used yet)
+/hello      /
+/contact    /twitter
+
+
+# 2022-03-29 - Amazon Cloud Architect Application
+/amazon/video   https://www.youtube.com/watch?v=glI3_-6VXrc&source=dalyle-www
+/awsvideo   https://www.youtube.com/watch?v=glI3_-6VXrc&source=dalyle-www
+
+
+
+
+
+# 2022-09-08 - YouTube @GregWorks
+# Careful - have to make sure to have special case for capital YouTube
+# https://answers.netlify.com/t/case-sensitivity-with-redirects/956/2
+# > When you use redirects, we don’t change the case and it is case-sensitive.
+# > If you need to match multiple cases then you’ll
+# **have to include separate redirect lines for each of those cases**.
+/YouTube    /yt
+/youtube    /yt
+/yt         https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q
+
+
+
